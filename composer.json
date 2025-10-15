@@ -1,0 +1,38 @@
+{
+    "name": "goed/cerebras-php",
+    "description": "A PHP adapter for the Cerebras AI API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Goed\\Cerebras\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Teun Wolbert",
+            "email": "teunw@goed.email"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "^7.8 || ^8.0",
+        "psr/log": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Goed\\Cerebras\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
