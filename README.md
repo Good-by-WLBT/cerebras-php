@@ -1,3 +1,5 @@
+Made with ❤️ by [Goed.email](https://goed.email)
+
 # Cerebras PHP Client
 
 A PHP client library for interacting with the Cerebras AI API, providing easy access to chat completions and other endpoints.
