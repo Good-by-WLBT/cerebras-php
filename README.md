@@ -7,7 +7,7 @@ A PHP client library for interacting with the Cerebras AI API, providing easy ac
 Install the package via Composer:
 
 ```bash
-composer require your-vendor/cerebras-php
+composer require goed/cerebras-php
 ```
 
 ## Usage
