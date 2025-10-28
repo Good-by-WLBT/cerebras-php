@@ -67,7 +67,19 @@ foreach ($stream as $chunk) {
 }
 ```
 
-For more examples, see the `examples/` directory, including `basic.php`.
+For more examples, see the `examples/` directory, including `basic.php`, `chat_page.php`, and `chat_page_non_streaming.php`.
+
+### Browser Chat Demo
+
+Serve the example files with PHP's built-in server for quick browser chat UIs:
+
+```bash
+php -S localhost:8080 -t examples
+```
+
+Then open:
+- `http://localhost:8080/chat_page.php` for streaming responses
+- `http://localhost:8080/chat_page_non_streaming.php` for non-streaming responses
 
 ## Features
 
